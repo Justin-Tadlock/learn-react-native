@@ -2,11 +2,19 @@
 
 A simple application to understand and utilize the firebase authentication flow within React Native.
 
+## Requirements
+
+1. [Node.js LTS](https://nodejs.org/en/)
+2. [React Native](https://reactnative.dev/)
+3. [Expo-CLI](https://expo.io/tools#cli)
+4. A phone or emulator to run Expo apps from
+
 ## Getting Started
 
 1. Clone the project
-2. Create a firebase project at the [Firebase Console](https://firebase.google.com)
-3. Under your `project settings`, scroll down and copy your firebase configuration.
+2. Open your terminal and navigate to the project folder, run `npm install`
+3. Create a firebase project at the [Firebase Console](https://firebase.google.com)
+4. Under your `project settings`, scroll down and copy your firebase configuration.
    Your configuration will look something like this:
 
 ```javascript
@@ -21,8 +29,8 @@ var firebaseConfig = {
 };
 ```
 
-4. Create a `firebaseConfig.js` file within your cloned project directory
-5. Paste the firebase configuration within the file, your content should look something like this:
+5. Create a `firebaseConfig.js` file within your cloned project directory
+6. Paste the firebase configuration within the file, your content should look something like this:
 
 ```javascript
 export const firebaseConfig = {
