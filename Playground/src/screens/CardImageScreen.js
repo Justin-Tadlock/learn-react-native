@@ -24,6 +24,7 @@ const CardImageScreen = ({ navigation }) => {
     headerStyle: {
       backgroundColor: "black",
     },
+    headerTintColor: "white",
   });
 
   let [fontsLoaded] = useFonts({
