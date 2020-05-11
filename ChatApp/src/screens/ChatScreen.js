@@ -5,7 +5,6 @@ import { Container, Form, Input, Item, Button, Label } from "native-base";
 import GiftedChatComponent from "../components/GiftedChatComponent";
 
 const ChatScreen = ({ route, navigation }) => {
-  //j
   navigation.setOptions({
     title: "LCO Chat Room",
     headerStyle: {
