@@ -35,12 +35,6 @@ class Firebase {
     return firebase.database().ref("messages");
   }
 
-  get messages() {
-    console.log("messages");
-    console.log(this.ref.orderByChild("timestamp").toString());
-    return this.ref.child("messages").limitToLast(50);
-  }
-
   parse = (snapshot) => {
     const { timestamp: numberStamp, text, user } = snapshot.val();
     const { key: _id } = snapshot;
